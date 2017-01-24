@@ -2,7 +2,7 @@
   transition: all .5s ease-out;
 }
 
-#left-ear:hover {
+#bear:hover #left-ear{
   transform: translate(0, -10px);
 }
 
@@ -10,7 +10,7 @@
   transition: all .5s ease-out;
 }
 
-#right-ear:hover {
+#bear:hover #right-ear{
   transform: translate(0, -10px);
 }
 
