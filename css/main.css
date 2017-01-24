@@ -1,0 +1,41 @@
+#left-ear {
+  transition: all .5s ease-out;
+}
+
+#left-ear:hover {
+  transform: translate(0, -10px);
+}
+
+#right-ear {
+  transition: all .5s ease-out;
+}
+
+#right-ear:hover {
+  transform: translate(0, -10px);
+}
+
+#right-eye {
+  transform-origin: center center;
+  animation: move 3s infinite;
+}
+
+#left-eye {
+  transform-origin: center center;
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(7px, 0);
+  }
+
+  100% {
+    transform: translate(-7px, 0);
+  }
+
+}
